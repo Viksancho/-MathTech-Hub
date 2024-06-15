@@ -1,53 +1,92 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            body{
+            background-color: beige;
+        }
+        h1{
+            text-align: center;
+            font-weight: 500;
+            font-size: 300%;
+        }
+            .Return{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 200%;
+        }  
+        .Return:hover{
+            color: rgb(149, 149, 149);
+            text-decoration: none;
+            font-size: 200%;
+        }
+        .Top{
+            background-color: rgb(255, 188, 63);
+            text-decoration: none;
+            text-align: center;
+            overflow: hidden;
+            padding: 20px 25px;
+            
+        }
+        .Top a{
+            text-decoration: none;
+            background-color: rgb(255, 188, 63);
+            color: black;
+            font-size: xx-large;
+            padding: 20px 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .Top a:hover{
+            text-decoration: none;
+            background-color: rgb(255, 205, 113);
+            color: rgb(255, 255, 255);
+        }
+        .bottom{
+            background-color: rgb(147, 147, 147);
+            text-decoration: none;
+            overflow: hidden;
+            text-align: center;
+            padding: 5px 10px;
+        }
+        .bottom a{
+            float: center;
+            text-decoration: none;
+            background-color: rgb(147, 147, 147);
+            color: rgb(255, 255, 255);
+            padding: 5px 10px;
+            font-size: x-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .bottom a:hover{
+            text-decoration: none;
+            background-color: rgb(179, 179, 179);
+            color: rgb(255, 255, 255);
+        }
+        </style>
+    </head>
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">HOME</a> </li>
-        </ul>
-    </nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <a class="Return" href="Index.html"><i class="fa fa-home"></i>Return</i></a>
+    <h1>Math-Hub</h1>
+    <div class="Top">
+        <a href="math_1th_grade.html">1st Grade</a>
+        <a href="math_2th_grade.html">2nd Grade</a>
+        <a href="math_3th_grade.html">3rd Grade</a>
+        <a href="math_4th_grade.html">4th Grade</a>
+        <a href="math_5th_grade.html">5th Grade</a>
+        <a href="math_6th_grade.html">6th Grade</a>
+        <a href="math_7th_grade.html">7th Grade</a>
+    </div>
+        <div class="bottom">
+        <a href="math_8th_grade.html">8th Grade</a>
+        <a href="math_9th_grade.html">9th Grade</a>
+        <a href="math_10th_grade.html">10th Grade</a>
+        <a href="math_11th_grade.html">11th Grade</a>
+        <a href="math_12th_grade.html">12th Grade</a>
+        </div>
     <br>
     <fieldset>
-        <h1></h1>
-        <p>
-            It seems like you're looking for a list of basic concepts typically covered by the end of the first grade. Here's a breakdown of what students typically learn:
-
-1. **Numbers and Counting:**
-   - Counting forward and backward from 1 to 120.
-   - Recognizing and writing numbers up to 100.
-   - Understanding the concept of tens and ones (place value).
-
-2. **Addition and Subtraction:**
-   - Adding and subtracting within 20, including solving word problems.
-   - Understanding the relationship between addition and subtraction.
-
-3. **Shapes and Geometry:**
-   - Recognizing and naming basic shapes (e.g., square, circle, triangle, rectangle).
-   - Describing and comparing shapes based on their attributes (e.g., number of sides, corners).
-   - Understanding simple spatial relationships (e.g., above, below, beside).
-
-4. **Measurement and Data:**
-   - Using non-standard units (like cubes or paper clips) to measure length and height.
-   - Collecting and organizing data using tally marks or simple graphs (e.g., bar graphs with pictures).
-
-5. **Patterns:**
-   - Recognizing, creating, and extending simple patterns with shapes, colors, and numbers.
-
-6. **Time and Money:**
-   - Telling time to the hour and half-hour on analog clocks.
-   - Understanding basic concepts of money (e.g., identifying coins and their values).
-
-7. **Basic Concepts in Algebra:**
-   - Understanding and solving simple addition and subtraction equations (e.g., 5 + __ = 8).
-
-8. **Problem-Solving:**
-   - Using basic problem-solving strategies to solve mathematical problems orally and in writing.
-
-9. **Mathematical Reasoning:**
-   - Explaining mathematical thinking and reasoning verbally and through simple written explanations.
-
-These concepts provide a foundational understanding of mathematics that prepares students for more complex topics in subsequent grades.
-        </p>
+        <p>If you're wondering what is taught in 1st grade well it's the most basic stuff like counting, mesuring in centimeters, geometry like squares, triangles circles and more, Algebra and Probability</p>
         <hr>
         <h1>Number</h1>
         <p>
@@ -88,6 +127,21 @@ Be able to talk about pattern rules. 1,3,5 is skip a number etc.
             Use graphs to record number of pets, hair colour temperature etc.
 Conduct simple surveys and generate 'yes', 'no' questions
         </p>
+    </fieldset>
+    <p>Question: What wasn't one of the things that teachers teach 1st graders</p>
+    <fieldset>
+        <form>
+            <input type="radio" name="number" value="wrong">
+            <label>Number</label>
+            <input type="radio" name="number" value="wrong">
+            <label>Algebra</label>
+            <input type="radio" name="number" value="wrong">
+            <label>Geometry</label>
+            <input type="radio" name="number" value="true">
+            <label>Quadratic fomula</label>
+            <br>
+            <input type="submit" name="submit">
+            </form>
     </fieldset>
 </body>
 </html>
